@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorite aircraft</title>
+
+<style>
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: blue;
+}
+
+li{
+float: left;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li a:hover{
+background-color: grey;
+}
+</style>
+</head>
+
+<body>
+
+<ul>
+<li><a href="aircraft.htm">Home</a></li>
+<li><a href="Favorite%20aircraft.htm">Favorite Planes</a></li>
+<li><a href="Licenses%20and%20aircraft.htm">Licenses</a></li>
+</ul>
+
+<p><a href="#MA">Jump to Military Aircraft</a></p>
+
+
+<p style="font-size:125%; color:blue; text-align:center;"><a href="aircraft.htm">Home</a>.....<a href="Favorite%20aircraft.htm">Favorite Planes</a>.....<a href="Licenses%20and%20aircraft.htm">Licenses</a></p>
+
+<img src="aviation_banner.jpg" alt="Aircraft" width="" height="" title="Aircraft soaring">
+
+<h1 title="Header"; style="text-align:center; font-size:300%">My favorite aircraft</h1>
+<hr>
+
+<h2>Random Canvas</h2>
+
+<p>Before we get to the substance of this section, here's a random Canvas for you to enjoy.</p>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid grey;">Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+//Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+//Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+
+<h2>Boeing 747-8 - The Queen of the Skies</h2>
+<img src="747-8.jpg" alt="747-8" title="The 747-8 is the second longest passenger aircraft">
+
+<p style="background-color:powderblue;">The Boeing 747-8 is a wide-body airliner developed by Boeing Commercial Airplanes, and the largest variant of the 747. After introducing the 747-400, Boeing considered larger 747 versions as alternatives to the proposed double-deck Airbus A3XX, later developed as the A380. The stretched 747 Advanced was launched as the 747-8 on November 14, 2005, for a market forecast of 300 aircraft. The first 747-8F Freighter performed its maiden flight on February 8, 2010, and the passenger 747-8I Intercontinental followed suit on March 20, 2011. The cargo version was first delivered in October 2011 and the airliner began commercial service in June 2012.</p>
+
+<p style="font-family:verdana; font-size:120%;">Its fuselage is stretched by 18 feet (5.5 m) to 250 feet (76 m), making it the longest airliner until the 777X, which first flew in 2020. While keeping its basic structure and sweep, the wing is thicker and deeper, holding more fuel, and wider with raked wingtips. Powered by the more efficient General Electric GEnx turbofan of the 787 Dreamliner, its maximum take-off weight (MTOW) grew to 975,000 pounds (442 t), the heaviest Boeing airliner.</p>
+
+<img src="747-8_cockpit.jpg" alt="Cockpit" width="1028" height="400" title="747-8 cockpit view">
+
+<p>The cockpit of the 747-8 is very modern, switching out many analog and dated system from older versions, in favor of more electronics and digital displays. The basic layout remains the same however, and pilots have reported easily adapting to the new cockpit. More information about the 747-8 can be found at this <a href="https://en.wikipedia.org/wiki/Boeing_747-8">link</a>.</p>
+
+<p style="font-size:150%; text-align:center"><strong>For future reference, when there is need for <sub>subscript</sub> and <sup>superscript</sup>, this is how it is done.</strong></p>
+
+<h2>Airbus A350</h2>
+
+<img src="A350-XWB.jpg" alt="Airbus A350 XWB" title="Airbus A350 in flight">
+
+<p>The Airbus A350 is a long-range, wide-body twin-engine jet airliner developed and produced by Airbus. The first A350 design proposed by Airbus in 2004, in response to the Boeing 787 Dreamliner, would have been a development of the A330 with composite wings and new engines. As market support was inadequate, in 2006, Airbus switched to a clean-sheet "XWB" (eXtra Wide Body) design, powered by two Rolls-Royce Trent XWB turbofan engines. The prototype first flew on 14 June 2013 from Toulouse in France. Type certification from the European Aviation Safety Agency (EASA) was obtained in September 2014, followed by certification from the Federal Aviation Administration (FAA) two months later. The A350 is the first Airbus aircraft largely made of carbon-fiber-reinforced polymers.</p>
+
+<img src="Airbus-A350-cockpit.jpg" alt="A350 cockpit" width="798" height="600" title="Airbus A350 cockpit view">
+
+<p>This aircraft was the first Airbus with a body made mostly of <i>carbon fibre composite</i>, making it one of the lightest and most fuel efficient jets today. It was developed soon after and to compete with the final aircraft in this section.</p>
+
+<h2>Boeing 787 Dreamliner</h2>
+
+<img src="Boeing-787-10.jpg" alt="Boeing 787 Dreamliner" title="Boeing 787 Dreamliner">
+
+<p>The Boeing 787 Dreamliner is an American wide-body jet airliner developed and manufactured by Boeing Commercial Airplanes. After dropping its Sonic Cruiser project, Boeing announced the conventional 7E7 on January 29, 2003, focused on efficiency. The program was launched on April 26, 2004, with an order for 50 from All Nippon Airways (ANA), targeting a 2008 introduction. On July 8, 2007, the prototype was rolled out without major systems and experienced multiple delays until its maiden flight on December 15, 2009. Type certification was received in August 2011 and the first 787-8 was delivered in September 2011 before entering commercial service on October 26, 2011, with ANA.</p>
+
+<img src="787_cockpit.jpg" alt="787 cockpit" title="Boeing 787 cockpit view">
+
+<p>At launch, Boeing targeted 20% less fuel burn than replaced aircraft like the Boeing 767, carrying 200 to 300 passengers on point-to-point routes up to 8,500 nautical miles (15,700 km), a shift from hub-and-spoke travel. The twinjet is powered by General Electric GEnx or Rolls-Royce Trent 1000 high-bypass turbofans. It is the first airliner with an airframe primarily made of composite materials and makes extensive use of electrical systems.</p>
+
+<p>As much as it was and still is a great aircraft, in 2014, Jim McNerney the CEO of Boeing admitted there were failings in the 787 program. The first Dreamliner was delivered in 2011, three years behind schedule, with the craft suffering a series of problems post launch. Initial issues with the 787’s engines and fuselage were followed by fuel leaks, cracks in the windshield, and later malfunctioning lithium-ion batteries, causing the entire global fleet to be grounded in January 2014. He was quoted as saying:</p>
+
+<blockquote cite="https://gulfbusiness.com/787-dreamliner-execution-was-not-good-boeing-ceo/">
+“We implemented technologies that were too quick to the market place, hadn’t fully matured yet. It ended up costing us a lot more money than we had anticipated and it was difficult for many people in our organisation and our customers.”
+</blockquote>
+
+<p>He went on to state that <q>The programme is profitable, but I think it’s fair to say we were not as profitable as we hoped to be at this stage.</q></p>
+
+<p>Issues were subsequently resolved and Boeing continued to enjoy record sales. Both the <abbr title="Federal Aviation Authority">FAA</abbr> and <abbr title="Internationl Civil Aviation Organization">ICAO</abbr> cleared the Deamliner of all issues and it has gone on to have one of the best flight records of any commercial aircraft type.</p>
+
+<h2 style="font-size:200%; text-align:center;" id="MA">Military Aircraft</h2>
+
+<p id="demo">So far on this page we have only discussed civilian aircraft. But there is a wide selection of military aircraft that are all extremely impressive as well. But before we proceed, here is a simple demonstration of how JavaScript can use the <q>getElementById("demo")</q> to change the style of an HTML document. Click on the button below to see how this text will be changed.</p>
+
+<script>
+function myFunction(){
+document.getElementById("demo").style.fontSize = "20px";
+document.getElementById("demo").style.color = "red";
+document.getElementById("demo").style.backgroundColor = "yellow";
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<h2>Lockheed SR-71 Blackbird</h2>
+
+<img src="sr71.jpg" alt="SR-71 Blackbird" title="SR-71 in flight" style="width:635px; height:500px;">
+
+<p>The Lockheed SR-71 "Blackbird" is a long-range, high-altitude, Mach 3+ strategic reconnaissance aircraft developed and manufactured by the American aerospace company Lockheed Corporation.[N 1] It was operated by the United States Air Force (USAF) and NASA.The SR-71 was developed as a black project from the Lockheed A-12 reconnaissance aircraft during the 1960s by Lockheed's Skunk Works division. American aerospace engineer Clarence "Kelly" Johnson was responsible for many of the aircraft's innovative concepts. The shape of the SR-71 was based on that of the A-12, which was one of the first aircraft to be designed with a reduced radar cross-section. Initially, a bomber variant of the A-12 was requested by Curtis LeMay, before the program was focused solely on reconnaissance. Mission equipment for the reconnaissance role included signals intelligence sensors, side looking airborne radar, and a camera; the SR-71 was both longer and heavier than the A-12, allowing it to hold more fuel as well as a two-seat cockpit. The SR-71 entered service in January 1966.</p>
+
+<p>Here is another stunning image of the Blackbird on the apron</p>
+<img src="https://militarymachine.com/wp-content/uploads/2018/08/SR-71-15-courtesy-of-NASA.jpg" alt="SR-71 parked" title="SR-71 parked" style="width:600px">
+
+<p>During aerial reconnaissance missions, the SR-71 operated at high speeds and altitudes (Mach 3.2 and 85,000 feet, 25,900 meters), allowing it to outrace or entirely avoid threats. If a surface-to-air missile launch was detected, the standard evasive action was simply to accelerate and outpace the missile. On average, each SR-71 could fly once per week due to the extended turnaround required after mission recovery. A total of 32 aircraft were built; 12 were lost in accidents with none lost to enemy action. During 1989, the USAF retired the SR-71 largely for political reasons; several were briefly reactivated during the 1990s before their second retirement in 1998. NASA was the final operator of the Blackbird, who used it as a research platform, and was retired in 1999. Since its retirement, the SR-71's role has been taken up by a combination of reconnaissance satellites and unmanned aerial vehicles (UAVs); a proposed UAV successor, the SR-72, is under development by Lockheed Martin, and scheduled to fly in 2025. The SR-71 has several nicknames, including "Blackbird" and "Habu".[8] As of 2022 the SR-71 holds the world record it set in 1976 as the fastest air-breathing manned aircraft, previously held by the related Lockheed YF-12.</p>
+
+<h2>Northrop Grumman B-2 Spirit</h2>
+
+<img src="b2_spirit.jpg" alt="B2 Spirit bomber" title="B2 Spirit in flight" style="width:600px">
+
+<p>The Northrop (later Northrop Grumman) B-2 Spirit, also known as the Stealth Bomber, is an American heavy strategic bomber, featuring low observable stealth technology designed for penetrating dense anti-aircraft defenses. Designed during the Cold War, it is a flying wing design with a crew of two. The bomber is subsonic and can deploy both conventional and thermonuclear weapons, such as up to eighty 500-pound class (230 kg) Mk 82 JDAM GPS-guided bombs, or sixteen 2,400-pound (1,100 kg) B83 nuclear bombs. The B-2 is the only acknowledged aircraft that can carry large air-to-surface standoff weapons in a stealth configuration. Development started under the "Advanced Technology Bomber" (ATB) project during the Carter administration; its expected performance was one of the President's reasons for the cancellation of the Mach 2 capable B-1A bomber. The ATB project continued during the Reagan administration, but worries about delays in its introduction led to the reinstatement of the B-1 program. Program costs rose throughout development. Designed and manufactured by Northrop, later Northrop Grumman, the cost of each aircraft averaged US$737 million (in 1997 dollars). Total procurement costs averaged $929 million per aircraft, which includes spare parts, equipment, retrofitting, and software support.The total program cost, which included development, engineering and testing, averaged $2.13 billion per aircraft in 1997.</p>
+
+<h2>Lockheed Martin F-35 Lightning II</h2>
+
+<img src="f35.webp" alt="F35 jet" title="F35 jet" style="width:600px">
+
+<p>The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, all-weather stealth multirole combat aircraft that is intended to perform both air superiority and strike missions. It is also able to provide electronic warfare and intelligence, surveillance, and reconnaissance capabilities. Lockheed Martin is the prime F-35 contractor, with principal partners Northrop Grumman and BAE Systems. The aircraft has three main variants: the conventional takeoff and landing (CTOL) F-35A, the short take-off and vertical-landing (STOVL) F-35B, and the carrier-based (CV/CATOBAR) F-35C. The aircraft descends from the Lockheed Martin X-35, which in 2001 beat the Boeing X-32 to win the Joint Strike Fighter (JSF) program. Its development is principally funded by the United States, with additional funding from program partner countries from NATO and close U.S. allies, including the United Kingdom, Australia, Canada, Italy, Norway, Denmark, the Netherlands, and formerly Turkey. Several other countries have also ordered, or are considering ordering, the aircraft. The program has drawn much scrutiny and criticism for its unprecedented size, complexity, ballooning costs, and much-delayed deliveries. The acquisition strategy of concurrent production of the aircraft while it was still in development and testing led to expensive design changes and retrofits.</p>
+
+<p>To close off this section, enjoy this awesome flight video. Turn the volume up to really enjoy it! &#128521</p>
+
+<video width="708" height="400" controls>
+<source src="B777_takeoffs.mp4" type="video/mp4">
+Your browser does not supprot the video tag.
+</video>
+
+
+<hr>
+
+<nav>
+<a href="aircraft.htm">Home</a>|
+<a href="Favorite%20aircraft.htm">Favorite Planes</a>|
+<a href="Licenses%20and%20aircraft.htm">Licenses</a>|
+</nav>
+<br>
+
+<footer>
+<address>
+Created by Taalumba Masambo<br>
+<a href="mailto:tjmasambo@gmail.com">tjmasambo@gmail.com</a><br>
+123 Diagon Alley,<br>
+P.O. Box 000,<br>
+Tokyo,<br>
+Japan.
+</address>
+</footer>
+
+</body>
+</html>
